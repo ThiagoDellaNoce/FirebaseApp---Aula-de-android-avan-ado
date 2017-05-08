@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "869070164484",
+    "firebase_url": "https://primeiro-projeto-de991.firebaseio.com",
+    "project_id": "primeiro-projeto-de991",
+    "storage_bucket": "primeiro-projeto-de991.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869070164484:android:891b4b41eafbef4e",
+        "android_client_info": {
+          "package_name": "com.example.thiag.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869070164484-evar21l8jtvhs2odbkngeopqj3ed6a75.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thiag.firebaseapp",
+            "certificate_hash": "50c5a196ab21f6949b07e399b6a2f02a8bd69d27"
+          }
+        },
+        {
+          "client_id": "869070164484-ho7pmueckomg8et9jcfugn6icvdondm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxp8LmDBI2KCgXms04X-d6oCSo-e96kL8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869070164484-ho7pmueckomg8et9jcfugn6icvdondm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

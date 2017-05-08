@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thiag.firebaseapp.CadastroUsuarioActivity">
+
+    <EditText
+        android:id="@+id/edtEmailSignup"
+        android:layout_width="286.67dp"
+        android:layout_height="49.67dp"
+        android:hint="Email"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="15dp"
+        android:layout_above="@+id/edtSenhaSignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/edtSenhaSignup"
+        android:layout_width="286.67dp"
+        android:layout_height="49.67dp"
+        android:hint="Senha"
+        android:inputType="text"
+        android:singleLine="true"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/btnSignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="88dp"/>
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="286.67dp"
+        android:layout_height="49.67dp"
+        android:text="Cadastrar"
+        android:textColor="#000"
+        android:elevation="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="172dp"/>
+</RelativeLayout>
