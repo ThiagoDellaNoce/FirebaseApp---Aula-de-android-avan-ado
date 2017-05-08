@@ -6,6 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.thiag.firebaseapp.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gdgicon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <EditText
         android:id="@+id/edtEmail"
         android:layout_width="286.67dp"
@@ -16,9 +26,9 @@
         android:textColor="#000"
         android:textColorHint="#000"
         android:textSize="15dp"
-        android:layout_marginBottom="32dp"
-        android:layout_above="@+id/edtSenha"
-        android:layout_alignStart="@+id/edtSenha"/>
+        android:layout_marginTop="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
     <EditText
         android:id="@+id/edtSenha"
         android:layout_width="286.67dp"
@@ -29,9 +39,9 @@
         android:textColor="#000"
         android:textColorHint="#000"
         android:textSize="15dp"
-        android:layout_marginBottom="39dp"
-        android:layout_above="@+id/btnLogin"
-        android:layout_centerHorizontal="true"/>
+        android:layout_below="@+id/edtEmail"
+        android:layout_alignLeft="@+id/edtEmail"
+        android:layout_alignStart="@+id/edtEmail" />
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="286.67dp"
@@ -39,8 +49,10 @@
         android:text="Login"
         android:textColor="#000"
         android:elevation="2dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_above="@+id/btnCadastro"
+        android:layout_alignLeft="@+id/edtSenha"
+        android:layout_alignStart="@+id/edtSenha"
+        android:layout_marginBottom="45dp" />
     <Button
         android:id="@+id/btnCadastro"
         android:layout_width="286.67dp"
@@ -48,7 +60,9 @@
         android:text="Cadastrar"
         android:textColor="#000"
         android:elevation="2dp"
-        android:layout_marginBottom="114dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/btnLogin"/>
+        android:layout_alignLeft="@+id/btnLogin"
+        android:layout_alignStart="@+id/btnLogin"
+        android:layout_marginBottom="35dp" />
+
 </RelativeLayout>
